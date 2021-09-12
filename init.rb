@@ -80,7 +80,7 @@ public
 		return PEMU::version_in_range? PEMU::get_version, @@MIN_PEMU_VERSION, @@MAX_PEMU_VERSION
 	end
 
-	# This method is called when the plugin is being loaded (The last plugin is still loaded)
+	# This method is called when the plugin is being loaded (The last plugin is already unloaded)
 	# @return [Boolean] Whether or not the plugin successfully loaded
 	# @raise [Java::JavaLang::Exception] This method may throw resulting in a failed load
 	def onLoad()
@@ -100,7 +100,7 @@ public
 		return true
 	end
 
-	# This method is called when the plugin is being unloaded (The new plugin is already loaded)
+	# This method is called when the plugin is being unloaded (The new plugin is not loaded)
 	def onUnload()
 		PEMU::debug_log(
 			PEMU::format_string(
