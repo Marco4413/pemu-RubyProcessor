@@ -95,7 +95,7 @@ public
 	end
 
 	def getRegisters()
-		return self.registers.to_a
+		return self.registers.toArray()
 	end
 
 	def getFlag(shortName)
