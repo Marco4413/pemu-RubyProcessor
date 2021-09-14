@@ -12,4 +12,4 @@
 # The name and version of this plugin, it's used to show the user a pretty name for the plugin
 # It's usually "name:version" but can be changed by overloading the "toString" method
 "plugin.name" = "Ruby Processor"
-"plugin.version" = "1.1"
+"plugin.version" = "1.2"

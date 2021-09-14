@@ -56,7 +56,7 @@ public
 	# Returns the version of this plugin, must be the same as specified in the plugin.info file
 	# @return [String] The version of this plugin
 	def getVersion()
-		return "1.1"
+		return "1.2"
 	end
 
 	# This method is called when creating a new Processor that is needed to Compile a file
