@@ -33,7 +33,7 @@ require "singleton"
 require_relative "Processor.rb"
 require_relative "localization/Translations.rb"
 
-class Plugin < PEMU::Plugin
+class Plugin < PEMU::AbstractPlugin
 protected
 	@@MIN_PEMU_VERSION = "1.12.0"
 	@@MAX_PEMU_VERSION = "1.12.99"
