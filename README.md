@@ -1,3 +1,5 @@
+# DISCONTINUED: PEMU 1.13.0 REMOVED RUBY PLUGIN SUPPORT
+
 # PEMU Ruby Processor
 
 ![](./logo.png)
