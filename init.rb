@@ -1,5 +1,5 @@
 
-# Copyright (c) 2021 [hds536jhmk](https://github.com/hds536jhmk/pemu-RubyProcessor)
+# Copyright (c) 2022 [Marco4413](https://github.com/Marco4413/pemu-RubyProcessor)
 # 
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation
@@ -44,7 +44,7 @@ public
 	# If more plugins with the same ID are found then only one is registered
 	# @return [String] The id of this plugin
 	def getID()
-		return "io.github.hds.pemu:ruby_processor"
+		return "io.github.marco4413.pemu:ruby_processor"
 	end
 	
 	# Returns the name of this plugin, must be the same as specified in the plugin.info file

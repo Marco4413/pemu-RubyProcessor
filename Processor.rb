@@ -1,5 +1,5 @@
 
-# Copyright (c) 2021 [hds536jhmk](https://github.com/hds536jhmk/pemu-RubyProcessor)
+# Copyright (c) 2022 [Marco4413](https://github.com/Marco4413/pemu-RubyProcessor)
 # 
 # Permission is hereby granted, free of charge, to any person
 # obtaining a copy of this software and associated documentation
@@ -26,7 +26,7 @@ require_relative "Utils.rb"
 require_relative "localization/Translations.rb"
 
 # This class is a copy-paste of PEMU::Processor (But written in Ruby):
-# https://github.com/hds536jhmk/ProcessorEmulator/blob/master/src/main/java/io/github/hds/pemu/processor/Processor.java
+# https://github.com/Marco4413/ProcessorEmulator/blob/master/src/main/java/io/github/marco4413/pemu/processor/Processor.java
 class Processor
 protected
 	attr_accessor :is_running
